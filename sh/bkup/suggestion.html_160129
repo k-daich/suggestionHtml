@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Suggestion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="narrowing">
+            <div class="Thema">
+                Thema
+                <select name="Theme"><!--<option value="COLLUMN">COLLUMN</option>-->
+                </select>
+            </div>
+            <div class="narrow_thema">
+                Narrowing Theme
+                <select name="narrow_thema"><!--<option value="NAME">NAME</option>-->
+                </select>
+            </div>
+            <div class="narrow_value">
+                Narrowing Theme
+                <select name="narrow_value">
+                    <textarea class="narrow_value"></textarea>
+                    <!-- TODO: add event listener -->
+                </select>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
